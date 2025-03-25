@@ -4,14 +4,14 @@ This project involves building a classification model to identify Iris flowers i
 
 ---
 
-## 🌸 Objective
+## Objective
 - Build a classification model to identify Iris flower species (Setosa, Versicolor, Virginica).
 - Identify the most significant features influencing classification.
 - Evaluate model performance using appropriate techniques.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── iris_classification.py       # Main training script
 ├── iris_rf_model.pkl            # Trained Random Forest model
@@ -22,7 +22,7 @@ This project involves building a classification model to identify Iris flowers i
 ```
 ---
 
-## ⚙️ Installation
+## Installation
 1. Clone the repository:
 ```bash
 https://github.com/SaiRudresh/Iris-Flower-Classification.git
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## 🚀 Running the Code
+## Running the Code
 ### 1. Train the Model
 ```bash
 python iris_classification.py
@@ -49,13 +49,13 @@ Modify the `new_data` in `predict_iris.py` with new input measurements to predic
 
 --- 
 
-## 📊 Model Evaluation
+## Model Evaluation
 - **Accuracy:** High accuracy achieved through Random Forest.
 - **Feature Importance:** Petal length and petal width are most significant.
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 The dataset includes the following features:
 - **Sepal length (cm)**
 - **Sepal width (cm)**
@@ -66,7 +66,7 @@ The dataset used is the **Iris dataset** from `sklearn.datasets`.
 
 ---
 
-## 🎯 Feature Importance
+## Feature Importance
 Based on the trained model, the most significant features for classification are:
 - **Petal length (cm)**
 - **Petal width (cm)**
@@ -77,7 +77,7 @@ Feature importance was extracted using `model.feature_importances_`.
 
 
 
-## 📈 Tools and Libraries
+## Tools and Libraries
 - Scikit-learn
 - Pandas
 - NumPy
@@ -85,16 +85,16 @@ Feature importance was extracted using `model.feature_importances_`.
 
 ---
 
-## 🤖 Model Used
+## Model Used
 - Random Forest Classifier (n_estimators=100, random_state=42)
 
 ---
-## 📄 License
+## License
 This project is for educational purposes.
 
 ---
 
-## 📌 Author
+## Author
 - Sai Rudresh Reddy Gunda
 
 ---
