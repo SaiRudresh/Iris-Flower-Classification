@@ -1,4 +1,4 @@
-# Iris Flower Classification - Machine Learning Project
+# Iris Flower Classification - Data Science Project
 
 This project involves building a classification model to identify Iris flowers into three species using petal and sepal length/width features. The project includes data preprocessing, model training with Random Forest, and deployment of a prediction script.
 
